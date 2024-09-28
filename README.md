@@ -22,7 +22,7 @@ The model architecture consists of three key components:
 2. **Feature Enhancement**: Query features are semantically enhanced using BERT to improve classification of complex fine-grained skin conditions.
 3. **Prototype Rectification**: Refines the class prototypes dynamically by shifting them using feature discrepancies between the support and query sets.
 
-![image-20240928180009707](../../../../../Users/33828/AppData/Roaming/Typora/typora-user-images/image-20240928180009707.png)
+![image-20240928180009707](plot/output/framework.png)
 
 
 
@@ -103,9 +103,9 @@ More detailed results can be found in our paper.
 
 Our model's attention mechanism can be visualized using Grad-CAM: 
 
-![image-20240928184125601](../../../../../Users/33828/AppData/Roaming/Typora/typora-user-images/image-20240928184125601.png)
+![image-20240928184125601](plot/output/Compare.png)
 
-![image-20240928183323505](../../../../../Users/33828/AppData/Roaming/Typora/typora-user-images/image-20240928183323505.png)
+![image-20240928183323505](plot/output/grad-cam.png)
 
 ## File Descriptor
 
